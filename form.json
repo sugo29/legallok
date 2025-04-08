@@ -1,0 +1,45 @@
+{
+    "id": "lease_agreement",
+    "title": "Lease Agreement",
+    "description": "Standard residential lease form",
+    "category": "property",
+    "downloads": 1245,
+    "sections": [
+      {
+        "title": "Parties Information",
+        "fields": [
+          {
+            "field_id": "landlord_name",
+            "label": "Landlord Full Name",
+            "type": "text",
+            "required": true,
+            "placeholder": "Enter landlord's full name"
+          },
+          {
+            "field_id": "tenant_name",
+            "label": "Tenant Full Name",
+            "type": "text",
+            "required": true
+          }
+        ]
+      },
+      {
+        "title": "Property Details",
+        "fields": [
+          {
+            "field_id": "property_address",
+            "label": "Property Address",
+            "type": "text",
+            "required": true
+          },
+          {
+            "field_id": "lease_term",
+            "label": "Lease Term (months)",
+            "type": "number",
+            "min": 1,
+            "default": 12
+          }
+        ]
+      }
+    ]
+}
